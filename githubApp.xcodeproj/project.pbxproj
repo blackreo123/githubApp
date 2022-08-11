@@ -16,6 +16,7 @@
 		624AB09428A3CC410081310F /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AB09328A3CC410081310F /* RepoListViewController.swift */; };
 		624AB09628A3CD5C0081310F /* RepoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624AB09528A3CD5C0081310F /* RepoListCell.swift */; };
 		624AB09928A3CE110081310F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 624AB09828A3CE110081310F /* SnapKit */; };
+		62E95EF428A4D7DF007FFBE0 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E95EF328A4D7DF007FFBE0 /* Repo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		621FAACD28A182AC00517B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624AB09328A3CC410081310F /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
 		624AB09528A3CD5C0081310F /* RepoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListCell.swift; sourceTree = "<group>"; };
+		62E95EF328A4D7DF007FFBE0 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				621FAAC128A182A700517B66 /* SceneDelegate.swift */,
 				624AB09328A3CC410081310F /* RepoListViewController.swift */,
 				624AB09528A3CD5C0081310F /* RepoListCell.swift */,
+				62E95EF328A4D7DF007FFBE0 /* Repo.swift */,
 				621FAAC828A182AC00517B66 /* Assets.xcassets */,
 				621FAACA28A182AC00517B66 /* LaunchScreen.storyboard */,
 				621FAACD28A182AC00517B66 /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				621FAAC028A182A700517B66 /* AppDelegate.swift in Sources */,
 				624AB09428A3CC410081310F /* RepoListViewController.swift in Sources */,
+				62E95EF428A4D7DF007FFBE0 /* Repo.swift in Sources */,
 				621FAAC228A182A700517B66 /* SceneDelegate.swift in Sources */,
 				624AB09628A3CD5C0081310F /* RepoListCell.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84F5W52ST4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = githubApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84F5W52ST4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = githubApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
