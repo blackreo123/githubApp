@@ -66,7 +66,6 @@ class RepoListViewController: UITableViewController {
             }
             .map { objects in
                 return objects.compactMap { dic -> Repo? in
-                    print("asdf", dic["stargazersCount"])
                     guard let id = dic["id"] as? Int,
                           let name = dic["name"] as? String,
                           let description = dic["description"] as? String,

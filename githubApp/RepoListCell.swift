@@ -68,7 +68,7 @@ class RepoListCell: UITableViewCell {
         }
         
         starLabel.snp.makeConstraints {
-            $0.centerY.equalTo(starImageView.center)
+            $0.centerY.equalTo(starImageView.snp.centerY)
             $0.leading.equalTo(starImageView.snp.trailing).offset(5)
         }
         
